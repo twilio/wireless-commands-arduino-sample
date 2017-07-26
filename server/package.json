@@ -1,0 +1,30 @@
+{
+  "name": "twilio-wireless-commands-arduino-sample",
+  "version": "1.0.0",
+  "description": "Use Twilio's Programmable SMS to send a Command by Programmable Wireless to an Arduino device asking for it's current battery level and send it back by Programmable SMS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilio/wireless-commands-arduino-sample.git"
+  },
+  "author": "Twilio",
+   "keywords": [
+    "twilio",
+    "iot"
+  ],
+  "license": "ISC",
+    "bugs": {
+    "url": "https://github.com/twilio/wireless-commands-arduino-sample/issues"
+  },
+  "homepage": "https://github.com/twilio/wireless-commands-arduino-sample#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.17.0",
+    "twilio": "^3.5.0"
+  }
+}
