@@ -1,6 +1,6 @@
 # Send Commands to an Arduino device
 
-Use Twilio's Programmable SMS as an interface to your Arduino. The body of the text message hits the sample Node.JS code which sends a Programmable Wireless [Command](https://www.twilio.com/docs/api/wireless/rest-api/command) to an [Ardunio](https://www.sparkfun.com/arduino_guide) device asking for it's current battery level, and then returns the results to the original sender.
+Use Twilio's Programmable SMS as an interface to your Arduino. The body of the text message hits the sample Node.JS code which sends a Programmable Wireless [Command](https://www.twilio.com/docs/api/wireless/rest-api/command) to an [Ardunio](https://www.sparkfun.com/arduino_guide) device asking for its current battery level and then returns the results to the original sender.
 
 # How's it work?
 The Command resource enables you to exchange simple machine-to-machine messages with SMS-capable Devices. For example, you could use a Command to tell an idle device to enable its data capabilities and establish an IP session. In this sample, we'll send a message to an Android device asking it to return its battery level.
