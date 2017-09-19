@@ -1,7 +1,6 @@
 #include <LBattery.h>
 #include <LGSM.h>
 #include <LGPS.h>
-#include <Wire.h>
 #include <LFlash.h>
 #include <LSD.h>
 #include <LStorage.h>
@@ -12,14 +11,11 @@ char NUM_DELIMITER[] = "#-";
 
 void getSMS(char* msg, int size);
 
-GPSWaypoint* _gpsPosition;
-
 // Put your setup code here
 // This is ran once
 void setup() {
   // Serial communication on the baud 9600
   Serial.begin(9600);
-  Wire.begin();
   LGPS.powerOn();
   Serial.println("LGPS powering on...");
   delay(3000);
