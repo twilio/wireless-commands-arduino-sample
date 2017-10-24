@@ -1,9 +1,4 @@
-#include <LBattery.h>
 #include <LGSM.h>
-#include <LGPS.h>
-#include <LFlash.h>
-#include <LSD.h>
-#include <LStorage.h>
 
 const char* TWILIO_NUM = "2936";
 const int MSG_SIZE = 256;
